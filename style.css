@@ -2,7 +2,7 @@ body
 {
     margin: 0px;
     padding: 0px;
-   background-image: url("Vegitable.jpg");
+   /* background-image: url("Vegitable.jpg");  */
    background-position: center;
 }
 
@@ -57,7 +57,7 @@ body
    background-color: rgb(218, 62, 67);
     
 }
-button
+.but1
 {
     padding: 0;
     margin: auto;
@@ -85,10 +85,12 @@ h3
 {
     color: rgb(255, 255, 255);
     background-color: black;
+    
     height: 22px;
     padding: 5px;
     display: flex;
     justify-content: space-between;
+    background-image: url("nature.jpg");
 
     /* transform: rotate(45deg); */
 }
@@ -104,7 +106,17 @@ border-left: 67px;
 
 }
 
-
+.mode
+{
+    background-color: red;
+    color: red;
+     padding: 0;
+    margin: auto;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 40px;
+}
 
 
 
